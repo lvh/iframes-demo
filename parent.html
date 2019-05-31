@@ -1,0 +1,13 @@
+<html>
+    <body style="background-color: #cfc;   background-image: url('texture.png');
+                 background-repeat: repeat;">
+        Hello from the parent
+
+        <button onclick="document.getElementById('chatframe').width = 0;">minimize chatframe</button>
+        <button onclick="document.getElementById('chatframe').width = 500;">maximize chatframe</button>
+
+        <textarea cols="1000" rows="1000">This is a very wide and very long textarea</textarea>
+
+    <iframe id="chatframe" style="position:fixed; right: 10px; bottom: 10px" src="child.html"></iframe>
+  </body>
+</html>
